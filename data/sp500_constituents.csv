@@ -1,51 +1,51 @@
-ticker,name,exchange,currency
-AAPL,Apple Inc.,SMART,USD
-MSFT,Microsoft Corp,SMART,USD
-NVDA,NVIDIA Corp,SMART,USD
-AMZN,Amazon.com Inc,SMART,USD
-GOOGL,Alphabet Inc Class A,SMART,USD
-META,Meta Platforms Inc,SMART,USD
-BRK.B,Berkshire Hathaway Class B,SMART,USD
-AVGO,Broadcom Inc,SMART,USD
-TSLA,Tesla Inc,SMART,USD
-JPM,JPMorgan Chase & Co,SMART,USD
-LLY,Eli Lilly and Co,SMART,USD
-V,Visa Inc,SMART,USD
-XOM,Exxon Mobil Corp,SMART,USD
-UNH,UnitedHealth Group Inc,SMART,USD
-MA,Mastercard Inc,SMART,USD
-COST,Costco Wholesale Corp,SMART,USD
-HD,Home Depot Inc,SMART,USD
-PG,Procter & Gamble Co,SMART,USD
-NFLX,Netflix Inc,SMART,USD
-JNJ,Johnson & Johnson,SMART,USD
-BAC,Bank of America Corp,SMART,USD
-ABBV,AbbVie Inc,SMART,USD
-CRM,Salesforce Inc,SMART,USD
-ORCL,Oracle Corp,SMART,USD
-WMT,Walmart Inc,SMART,USD
-KO,Coca-Cola Co,SMART,USD
-CVX,Chevron Corp,SMART,USD
-AMD,Advanced Micro Devices Inc,SMART,USD
-PEP,PepsiCo Inc,SMART,USD
-ADBE,Adobe Inc,SMART,USD
-TMO,Thermo Fisher Scientific Inc,SMART,USD
-MCD,McDonald's Corp,SMART,USD
-CSCO,Cisco Systems Inc,SMART,USD
-ABT,Abbott Laboratories,SMART,USD
-DIS,Walt Disney Co,SMART,USD
-LIN,Linde PLC,SMART,USD
-WFC,Wells Fargo & Co,SMART,USD
-INTU,Intuit Inc,SMART,USD
-VZ,Verizon Communications Inc,SMART,USD
-TXN,Texas Instruments Inc,SMART,USD
-PM,Philip Morris International Inc,SMART,USD
-IBM,International Business Machines Corp,SMART,USD
-NOW,ServiceNow Inc,SMART,USD
-AMGN,Amgen Inc,SMART,USD
-QCOM,Qualcomm Inc,SMART,USD
-CAT,Caterpillar Inc,SMART,USD
-GE,GE Aerospace,SMART,USD
-SPGI,S&P Global Inc,SMART,USD
-UBER,Uber Technologies Inc,SMART,USD
-ISRG,Intuitive Surgical Inc,SMART,USD
+ticker,name,yf_ticker
+AAPL,Apple Inc.,AAPL
+MSFT,Microsoft Corp,MSFT
+NVDA,NVIDIA Corp,NVDA
+AMZN,Amazon.com Inc,AMZN
+GOOGL,Alphabet Inc Class A,GOOGL
+META,Meta Platforms Inc,META
+BRK.B,Berkshire Hathaway Class B,BRK-B
+AVGO,Broadcom Inc,AVGO
+TSLA,Tesla Inc,TSLA
+JPM,JPMorgan Chase & Co,JPM
+LLY,Eli Lilly and Co,LLY
+V,Visa Inc,V
+XOM,Exxon Mobil Corp,XOM
+UNH,UnitedHealth Group Inc,UNH
+MA,Mastercard Inc,MA
+COST,Costco Wholesale Corp,COST
+HD,Home Depot Inc,HD
+PG,Procter & Gamble Co,PG
+NFLX,Netflix Inc,NFLX
+JNJ,Johnson & Johnson,JNJ
+BAC,Bank of America Corp,BAC
+ABBV,AbbVie Inc,ABBV
+CRM,Salesforce Inc,CRM
+ORCL,Oracle Corp,ORCL
+WMT,Walmart Inc,WMT
+KO,Coca-Cola Co,KO
+CVX,Chevron Corp,CVX
+AMD,Advanced Micro Devices Inc,AMD
+PEP,PepsiCo Inc,PEP
+ADBE,Adobe Inc,ADBE
+TMO,Thermo Fisher Scientific Inc,TMO
+MCD,McDonald's Corp,MCD
+CSCO,Cisco Systems Inc,CSCO
+ABT,Abbott Laboratories,ABT
+DIS,Walt Disney Co,DIS
+LIN,Linde PLC,LIN
+WFC,Wells Fargo & Co,WFC
+INTU,Intuit Inc,INTU
+VZ,Verizon Communications Inc,VZ
+TXN,Texas Instruments Inc,TXN
+PM,Philip Morris International Inc,PM
+IBM,International Business Machines Corp,IBM
+NOW,ServiceNow Inc,NOW
+AMGN,Amgen Inc,AMGN
+QCOM,Qualcomm Inc,QCOM
+CAT,Caterpillar Inc,CAT
+GE,GE Aerospace,GE
+SPGI,S&P Global Inc,SPGI
+UBER,Uber Technologies Inc,UBER
+ISRG,Intuitive Surgical Inc,ISRG

@@ -1,51 +1,50 @@
-ticker,name,exchange,currency
-NOVN,Novartis AG,EBS,CHF
-NESN,Nestle SA,EBS,CHF
-ROG,Roche Holding AG,EBS,CHF
-ASML,ASML Holding NV,AEB,EUR
-MC,LVMH Moet Hennessy Louis Vuitton,SBF,EUR
-SAP,SAP SE,IBIS,EUR
-OR,L'Oreal SA,SBF,EUR
-TTE,TotalEnergies SE,SBF,EUR
-SIE,Siemens AG,IBIS,EUR
-AZN,AstraZeneca PLC,LSE,GBP
-SHEL,Shell PLC,LSE,GBP
-NOVOB,Novo Nordisk A/S,CSE,DKK
-HSBA,HSBC Holdings PLC,LSE,GBP
-UNA,Unilever PLC,LSE,GBP
-ALV,Allianz SE,IBIS,EUR
-DTE,Deutsche Telekom AG,IBIS,EUR
-BAYN,Bayer AG,IBIS,EUR
-SAN,Banco Santander SA,BME,EUR
-IBE,Iberdrola SA,BME,EUR
-BNP,BNP Paribas SA,SBF,EUR
-AIR,Airbus SE,SBF,EUR
-SU,Schneider Electric SE,SBF,EUR
-EL,EssilorLuxottica SA,SBF,EUR
-CS,AXA SA,SBF,EUR
-DG,Vinci SA,SBF,EUR
-BN,Danone SA,SBF,EUR
-RI,Pernod Ricard SA,SBF,EUR
-ENEL,Enel SpA,BVME,EUR
-ENI,Eni SpA,BVME,EUR
-ISP,Intesa Sanpaolo SpA,BVME,EUR
-UCG,UniCredit SpA,BVME,EUR
-RACE,Ferrari NV,BVME,EUR
-STLA,Stellantis NV,BVME,EUR
-ABI,Anheuser-Busch InBev SA,ENEXT.BE,EUR
-ADYEN,Adyen NV,AEB,EUR
-PHIA,Koninklijke Philips NV,AEB,EUR
-INGA,ING Groep NV,AEB,EUR
-BATS,British American Tobacco PLC,LSE,GBP
-GSK,GSK PLC,LSE,GBP
-DGE,Diageo PLC,LSE,GBP
-RIO,Rio Tinto PLC,LSE,GBP
-BP,BP PLC,LSE,GBP
-ULVR,Unilever PLC,LSE,GBP
-VOD,Vodafone Group PLC,LSE,GBP
-BARC,Barclays PLC,LSE,GBP
-LLOY,Lloyds Banking Group PLC,LSE,GBP
-NG,National Grid PLC,LSE,GBP
-REL,RELX PLC,LSE,GBP
-GLEN,Glencore PLC,LSE,GBP
-AAL,Anglo American PLC,LSE,GBP
+ticker,name,yf_ticker
+NOVN,Novartis AG,NOVN.SW
+NESN,Nestle SA,NESN.SW
+ROG,Roche Holding AG,ROG.SW
+ASML,ASML Holding NV,ASML.AS
+MC,LVMH Moet Hennessy Louis Vuitton,MC.PA
+SAP,SAP SE,SAP.DE
+OR,L'Oreal SA,OR.PA
+TTE,TotalEnergies SE,TTE.PA
+SIE,Siemens AG,SIE.DE
+AZN,AstraZeneca PLC,AZN.L
+SHEL,Shell PLC,SHEL.L
+NOVOB,Novo Nordisk A/S,NOVO-B.CO
+HSBA,HSBC Holdings PLC,HSBA.L
+ALV,Allianz SE,ALV.DE
+DTE,Deutsche Telekom AG,DTE.DE
+BAYN,Bayer AG,BAYN.DE
+SAN,Banco Santander SA,SAN.MC
+IBE,Iberdrola SA,IBE.MC
+BNP,BNP Paribas SA,BNP.PA
+AIR,Airbus SE,AIR.PA
+SU,Schneider Electric SE,SU.PA
+EL,EssilorLuxottica SA,EL.PA
+CS,AXA SA,CS.PA
+DG,Vinci SA,DG.PA
+BN,Danone SA,BN.PA
+RI,Pernod Ricard SA,RI.PA
+ENEL,Enel SpA,ENEL.MI
+ENI,Eni SpA,ENI.MI
+ISP,Intesa Sanpaolo SpA,ISP.MI
+UCG,UniCredit SpA,UCG.MI
+RACE,Ferrari NV,RACE.MI
+STLA,Stellantis NV,STLAM.MI
+ABI,Anheuser-Busch InBev SA,ABI.BR
+ADYEN,Adyen NV,ADYEN.AS
+PHIA,Koninklijke Philips NV,PHIA.AS
+INGA,ING Groep NV,INGA.AS
+BATS,British American Tobacco PLC,BATS.L
+GSK,GSK PLC,GSK.L
+DGE,Diageo PLC,DGE.L
+RIO,Rio Tinto PLC,RIO.L
+BP,BP PLC,BP.L
+ULVR,Unilever PLC,ULVR.L
+VOD,Vodafone Group PLC,VOD.L
+BARC,Barclays PLC,BARC.L
+LLOY,Lloyds Banking Group PLC,LLOY.L
+NG,National Grid PLC,NG.L
+REL,RELX PLC,REL.L
+GLEN,Glencore PLC,GLEN.L
+AAL,Anglo American PLC,AAL.L

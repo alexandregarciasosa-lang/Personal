@@ -25,8 +25,7 @@ WIKIPEDIA_SP500_URL = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies
 class Constituent:
     ticker: str
     name: str
-    exchange: str
-    currency: str
+    yf_ticker: str  # simbolo tal como lo espera Yahoo Finance / yfinance
 
 
 def _load_csv(path: Path) -> list[Constituent]:
@@ -41,8 +40,7 @@ def _load_csv(path: Path) -> list[Constituent]:
             Constituent(
                 ticker=row["ticker"].strip(),
                 name=row["name"].strip(),
-                exchange=row["exchange"].strip(),
-                currency=row["currency"].strip(),
+                yf_ticker=row["yf_ticker"].strip(),
             )
             for row in reader
         ]
@@ -66,8 +64,9 @@ def update_sp500_from_wikipedia(output_path: Path = SP500_CSV) -> int:
     """Regenera sp500_constituents.csv leyendo la tabla de Wikipedia.
 
     Requiere acceso a internet y pandas+lxml instalados. Se corre a mano
-    (no como parte del pipeline principal) porque IBKR no expone la
-    composicion de indices via API.
+    (no como parte del pipeline principal). El ticker de Yahoo suele
+    coincidir con el de la tabla salvo el punto de clases de accion
+    (ej. BRK.B -> BRK-B), que se resuelve reemplazando "." por "-".
     """
     import pandas as pd
 
@@ -76,13 +75,14 @@ def update_sp500_from_wikipedia(output_path: Path = SP500_CSV) -> int:
 
     rows = []
     for _, r in table.iterrows():
-        ticker = str(r["Symbol"]).strip().replace(".", " ").replace(" ", ".")
+        ticker = str(r["Symbol"]).strip()
         name = str(r["Security"]).strip()
-        rows.append((ticker, name, "SMART", "USD"))
+        yf_ticker = ticker.replace(".", "-")
+        rows.append((ticker, name, yf_ticker))
 
     with output_path.open("w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow(["ticker", "name", "exchange", "currency"])
+        writer.writerow(["ticker", "name", "yf_ticker"])
         writer.writerows(rows)
 
     return len(rows)
